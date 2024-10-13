@@ -562,7 +562,6 @@ public class CollectionController {
 				if (dueEmi == null) {
 					dueEmi = 0;
 				}
-
 				Integer pendingAmount = pendAmount;
 				Integer netCollection = pendingAmount + collectionAmount;
 				Integer differenceAmount=0;
