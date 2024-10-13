@@ -567,9 +567,7 @@ public class CollectionController {
 				Integer differenceAmount=0;
 				do {
 					int dueInstallment = due;
-
 					int emi = dueEmi;
-
 					int collectedAmount = 0;
 					if (netCollection == emi) {
 						collectedAmount = netCollection;
