@@ -1,15 +1,13 @@
-package com.lms.dto.repository;
+package com.lms.DTO.repository;
 
  import java.util.List;
 import java.util.Map;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
+ import org.springframework.stereotype.Repository;
 
-import com.lms.dto.LoanDTO;
-import com.lms.model.LoanCreation;
+ import com.lms.model.LoanCreation;
 @Repository
 public interface LoanDTORepository extends JpaRepository<LoanCreation, Long> {
 
